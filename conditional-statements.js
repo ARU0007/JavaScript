@@ -9,3 +9,16 @@ if (depthOfOcean < 100) {
 } else {
   console.log("The ocean is very deep.");
 }
+
+/* OR
+
+const depthOfOcean = 500; // Change this value to test different depths
+
+const oceanDepthMessage = 
+  depthOfOcean < 100 ? "shallow" :
+  depthOfOcean < 500 ? "moderately deep" :
+  depthOfOcean < 1000 ? "deep" :
+  "very deep";
+
+console.log(`The ocean is ${oceanDepthMessage}.`);
+*/
