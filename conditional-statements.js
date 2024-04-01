@@ -22,3 +22,12 @@ const oceanDepthMessage =
 
 console.log(`The ocean is ${oceanDepthMessage}.`);
 */
+
+//   Description
+/*
+In this code:
+
+-> We use a ternary operator to evaluate each depth condition and assign 
+the appropriate message to the oceanDepthMessage variable.
+-> Template literals are used to interpolate the message into the log statement.
+-> This approach makes the code more concise and easier to read. */
