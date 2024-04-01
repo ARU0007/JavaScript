@@ -37,4 +37,5 @@ const person = { firstName: "John", lastName: "Doe" };
 // Array object:
 const cars = ["Saab", "Volvo", "BMW"];
 
+//output
 console.log(typeof sym);
