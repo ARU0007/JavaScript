@@ -27,3 +27,14 @@ let str3 = "Hello, World!";
 for (let char of str3) {
   console.log(char);
 }
+
+// for in loop
+let person = {
+  name: "John",
+  age: 30,
+  city: "New York",
+};
+
+for (let key in person) {
+  console.log(key + ": " + person[key]);
+}
