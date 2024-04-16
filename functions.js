@@ -14,3 +14,11 @@ function myFunction1(msg) {
 
 //function call
 myFunction1("I Love Birds");
+
+function sum(x1, x2) {
+  s = x1 + x2;
+  return s;
+}
+
+let val = sum(1, 3);
+console.log(val);
