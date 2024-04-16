@@ -7,3 +7,18 @@ const arrowMultiplication = (x, y) => {
 };
 
 arrowMultiplication(3 * 7);
+
+const countVowels = (str) => {
+  for (const char of str) {
+    if (
+      char == "a" ||
+      char == "e" ||
+      char == "i" ||
+      char == "o" ||
+      char == "u"
+    ) {
+      count++;
+    }
+  }
+  console.log(count);
+};
