@@ -4,6 +4,7 @@ let arr2 = arr.map((val) => {
 });
 console.log(arr2);
 
+//filter
 let arr3 = arr.filter((val) => {
   //filter
   return val % 2 == 0;
