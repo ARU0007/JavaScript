@@ -15,3 +15,12 @@ console.dir(firstElement);
 
 let allElement = document.querySelectorAll("p");
 console.dir(allElement);
+
+//Properties
+/*
+heading.tagName;
+heading.innerText;
+heading.innerHTML;
+heading.content;
+
+ */
